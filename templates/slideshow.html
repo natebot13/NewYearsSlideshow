@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Social Slideshow</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/slideshowstyle.css') }}">
+    </head>
+    <body>
+        <h1 class="datetime"></h1>
+        <div class="centered nextImage">
+            <img src="" alt="Loading..." />
+        </div>
+        <div class="centered currentImage">
+            <img src="" alt="Loading..." />
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/firework.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/slideshowscript.js') }}"></script>
+    </body>
+</html>

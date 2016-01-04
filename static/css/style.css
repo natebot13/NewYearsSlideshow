@@ -1,0 +1,81 @@
+html, body {
+  margin: 0px;
+  border: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #1155FF;
+}
+
+.content {
+  z-index: 1;
+}
+
+#sky {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.spark {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  z-index: 1;
+
+  /*top: 10px;
+  left: 10px;
+  background-color: red;*/
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  text-align: justify;
+}
+
+li {
+  font-size: 20px;
+}
+
+input {
+  font-size: 25px;
+  text-align: center;
+}
+
+.button {
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 1px solid #666;
+  border-radius: 5px;
+  color:#000;
+  text-decoration:none;
+  font-size: 50px;
+}
+
+.jumbo {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 20px 90px;
+  border: solid 1px white;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .jumbo {
+    padding: 5px 10px;
+  }
+}

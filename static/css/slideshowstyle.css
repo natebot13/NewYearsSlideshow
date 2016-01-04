@@ -1,0 +1,56 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.spark {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  z-index: 1;
+
+  /*top: 10px;
+  left: 10px;
+  background-color: red;*/
+}
+
+img {
+  height: 100%;
+}
+
+.nextImage {
+  z-index: 0;
+}
+
+.currentImage {
+  z-index: 1;
+}
+
+.datetime {
+  margin: 40px;
+  position: absolute;
+  z-index: 5;
+}
+
+.spark {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 5px;
+  z-index: 2;
+
+  /*top: 10px;
+  left: 10px;
+  background-color: red;*/
+}

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>
+      New Years Party
+    </title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="center headline">
+        <div class="jumbo">
+          <h1 class="randomcolor">Annual New Year's Eve Party!</h1>
+          <h2 class="randomcolor">We're hosting another new years party this year, and you're invited!</h2>
+          <ul>
+            <li class="randomcolor">Hosted by the Pannells!</li>
+            <li class="randomcolor">We open our doors at 5pm on Thursday the 31st. Come anytime before midnight!</li>
+            <li class="randomcolor">Bring your favorite dish to snack on throughout the night! (soda, chips, mozzerella sticks, etc!)</li>
+            <li class="randomcolor">Bring your favorite party game! If you don't have a favorite, bring your top 5!</li>
+          </ul>
+          <h2 class="randomcolor">Enter your name and click the big button!</h2>
+          <div>
+            <input class="randombgcolor"/>
+          </div>
+          <br/>
+          <br/>
+          <a class="button randomcolor randombgcolor" href="#">I CAN GO!</a>
+          <br/>
+          <br/><span class="randomcolor response"></span>
+        </div>
+      </div>
+    </div>
+    <div id="sky">
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
